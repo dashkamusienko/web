@@ -97,3 +97,52 @@ body {
     from {left: 0%;background-color: blue;height: 200px;width: 200px;}
     to {left: 50%;background-color: yellow;height: 100px;width: 300px;}
 }
+
+/*TASK 7*/
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+}
+
+#top1{ width: 30%; height: 33%; background: rgb(0,10,20);}
+#top2{ width: 15%; height: 33%; background: rgb(10,20,30);}
+#top3{ width: 15%; height: 33%; background: rgb(20,30,40);}
+#top4{ width: 15%; height: 33%; background: rgb(30,40,50);}
+#top5{ width: 25%; height: 33%; background: rgb(40,50,60);}
+#middle1{ width: 15%; height: 33%; background: rgb(50,60,70);}
+#middle2{ width: 20%; height: 33%; background: rgb(60,70,80);}
+#middle3{ width: 20%; height: 33%; background: rgb(70,80,90);}
+#middle4{ width: 20%; height: 33%; background: rgb(80,90,100);}
+#middle5{ width: 25%; height: 33%; background: rgb(90,100,110);}
+#bottom1{ width: 30%; height: 33%; background: rgb(100,110,120);}
+#bottom2{ width: 20%; height: 33%; background: rgb(110,120,130);}
+#bottom3{ width: 15%; height: 33%; background: rgb(120,130,140);}
+#bottom4{ width: 35%; height: 33%; background: rgb(130,140,150);}
+
+#grid {
+    display: grid;
+    grid-template-rows: 15% 9.5% 16% 11% 5.5% 10.5% 13.5% 19%;
+    grid-template-columns: 26% 18% 12% 18% 26%;
+    height: 300px;
+}
+
+#block1{grid-column: 1; grid-row: 1; background: rgb(0,10,20);}
+#block2{grid-column: 2/6; grid-row: 1; background: rgb(10,20,30);}
+#block3{grid-column: 1/4; grid-row: 2; background: rgb(20,30,40);}
+#block4{grid-column: 4; grid-row: 2; background: rgb(30,40,50);}
+#block5{grid-column: 5; grid-row: 2/6; background: rgb(40,50,60);}
+#block6{grid-column: 1; grid-row: 3/5; background: rgb(50,60,70);}
+#block7{grid-column: 2/4; grid-row: 3; background: rgb(60,70,80);}
+#block8{grid-column: 4; grid-row: 3; background: rgb(70,80,90);}
+#block9{grid-column: 1; grid-row: 5/7; background: rgb(80,90,100);}
+#block10{grid-column: 2; grid-row: 4/7; background: rgb(90,100,110);}
+#block11{grid-column: 3; grid-row: 4/7; background: rgb(100,110,120);}
+#block12{grid-column: 4; grid-row: 4/8; background: rgb(110,120,130);}
+#block13{grid-column: 5; grid-row: 6/8; background: rgb(120,130,140);}
+#block14{grid-column: 1; grid-row: 7/9; background: rgb(130,140,150);}
+#block15{grid-column: 2; grid-row: 7; background: rgb(140,150,160);}
+#block16{grid-column: 2; grid-row: 8; background: rgb(150,160,170);}
+#block17{grid-column: 3; grid-row: 7/9; background: rgb(160,170,180);}
+#block18{grid-column: 4/6; grid-row: 8; background: rgb(170,180,190);}
