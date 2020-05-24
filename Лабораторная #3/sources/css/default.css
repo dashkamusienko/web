@@ -1,0 +1,8 @@
+table{
+    border: black 1px solid;
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+}
