@@ -1,0 +1,99 @@
+header {
+    position:fixed;
+    top:0px;
+    left:45%;
+}
+#header {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin-top: 150px;
+}
+
+/*TASK 2*/
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #C26;
+    animation-timing-function: ease-in;
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    from {left: 0%;}
+    to {left: 50%;}
+}
+
+/*TASK 3*/
+
+#bor {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#rot {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: red;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(45deg);}
+}
+
+/*TASK 4*/
+
+#circle {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    animation-timing-function: linear;
+    animation: move 0.75s infinite;
+}
+
+/*TASK 5*/
+
+#col {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    animation: color 1s infinite;
+}
+
+@keyframes color {
+    0% {background-color: blue;}
+    50% {background-color: yellow;}
+    100% {background-color: red;}
+}
+
+/*TASK 6*/
+
+#collapse {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation: movecolorsize 0s infinite;
+}
+
+@keyframes movecolorsize {
+    from {left: 0%;background-color: blue;height: 200px;width: 200px;}
+    to {left: 50%;background-color: yellow;height: 100px;width: 300px;}
+}
