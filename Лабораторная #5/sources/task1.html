@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>lab4</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <script src="./js/task1.js"></script>
+</head>
+<header>
+    <div id="header">
+        <a href="./index.html">
+            <strong>Home</strong>
+        </a>
+    </div>
+</header>
+<body>
+    <form>
+        <pre>
+    <label>Name</label>
+    <input id="name">
+    <label>Surname</label>
+    <input id="surname">
+    <label>Gender</label>
+    <select id="gender">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+    </select>
+    <label>Birthday (D/M/YYYY)</label>
+    <input id="birthday">
+    <button onclick="send()" type="button">Generate code</button>
+        </pre>
+    </form>
+
+    <div>
+        <h4 id="out">XXXXXX00X00</h4>
+    </div>
+</body>
+</html>
