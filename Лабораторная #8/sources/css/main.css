@@ -1,0 +1,15 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
