@@ -1,0 +1,1549 @@
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+
+/* banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1970px;
+    height: 750px;
+    background-color: #7d8587;
+}
+
+.banner .container {
+    width: 100%;
+    max-width: 1170px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.banner__image {
+    font-size: 22px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.364;
+    text-align: center;
+    position: absolute;
+    left: 921.156px;
+    top: 207.341px;
+}
+
+.intro__call {
+    width: 37px;
+    height: 37px;
+    left: 967px;
+    top: 505px;
+    position: absolute;
+    background: url("../images/call.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__text {
+    font-family: 'Playfair Display', serif;
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    line-height: 0.645;
+    text-align: center;
+    position: absolute;
+    left: 718.203px;
+    top: 370.949px;
+}
+
+.intro__text__second {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    line-height: 0.645;
+    text-align: center;
+    position: absolute;
+    left: 755px;
+    top: 428px;
+}
+
+.intro__call__text {
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    color: rgb(254, 161, 0);
+    text-transform: uppercase;
+    line-height: 1.429;
+    position: absolute;
+    left: 876.219px;
+    top: 556.997px;
+}
+
+.intro__number {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.611;
+    position: absolute;
+    left: 858.734px;
+    top: 584.502px;
+}
+
+.slider {
+    width: 1170px;
+    height: 750px;
+    position: absolute;
+}
+
+.slider__arrorw__right {    
+    float: right;
+    margin-top: 372px;
+    margin-right: 18px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 43px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.slider__arrorw__left {
+    float: left;
+    margin-top: 372px;
+    margin-left: 18px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 43px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 22px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 212px;
+    height: 41px;
+
+    background: url("../images/logo.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header__card {
+    width: 42px;
+    height: 25px;
+    margin-bottom: 12px;
+    margin-right: -100px;
+}
+
+.header__card__img {
+    width: 21px;
+    height: 17px;
+    margin-top: 8px;    
+    filter: invert(100%);
+    background: url("../images/card.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header__card__circle {
+    width: 15px;
+    height: 15px;
+    background-color: #fe4c8d;   
+    border-radius: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.header__card__circle__text {
+    width: 14px;
+    height: 15px;
+    margin-top: -1px;   
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 11px;
+    color: white;
+}
+
+.header__card__arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+  border-top: 5px solid white;
+  margin-left: 35px;
+  margin-top: -10px;
+}
+
+.header__button {
+    width: 199px;
+    height: 47px;
+    border-radius: 3px;
+    background: #fea100;
+    margin-right: -40px;
+}
+
+.header__button__inside {
+    width: 193px;
+    height: 41px;
+    margin: 3px;
+    border: solid 1px white;
+    border-radius: 3px;
+    background: #fea100;
+}
+
+.header__button__inside__plate {
+    width: 21px;
+    height: 17px;
+    margin-top: 11px;
+    margin-left: 16px;
+    background: url("../images/plate.png") center no-repeat;
+}
+
+.header__button__inside__text {
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 50px;
+    margin-top: -18px;
+    width: 127px;
+    height: 14px;
+}
+
+/* Menu */
+.menu {
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-right: -100px;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* food menu */
+
+.food__header {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    line-height: 0.629;
+    position: absolute;
+    left: 398.531px;
+    top: 850px;
+}
+
+.food__list__1__name {
+    font-size: 16px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.063;
+    position: absolute;
+    left: 398.734px;
+    top: 910px;
+}
+
+.food__list__1__desc {
+    font-size: 14px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(92, 99, 105);
+    line-height: 1.857;
+    position: absolute;
+    left: 398.266px;
+    top: 930.797px;
+}
+
+.food__list__1__price {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 0.846;
+    position: absolute;
+    left: 798.187px;
+    top: 909.502px;
+}
+
+.list__border__1 {
+    border-width: 3px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    position: absolute;
+    left: 400px;
+    top: 970px;
+    width: 524px;
+    height: 0;
+}
+
+.list__border__2 {
+    border-width: 3px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    position: absolute;
+    left: 400px;
+    top: 1054px;
+    width: 524px;
+    height: 0;
+}
+
+.list__border__3 {
+    border-width: 3px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    position: absolute;
+    left: 400px;
+    top: 1138px;
+    width: 524px;
+    height: 0;
+}
+
+.food__list__2__name {
+    font-size: 16px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.063;
+    position: absolute;
+    left: 398.5px;
+    top: 992.996px;
+}   
+
+.food__list__2__desc {
+    font-size: 14px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(92, 99, 105);
+    line-height: 1.857;
+    position: absolute;
+    left: 398.516px;
+    top: 1018.797px;
+}
+
+.food__list__2__price {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 0.846;
+    position: absolute;
+    left: 798.187px;
+    top: 993.502px;
+}
+
+.food__list__3__name {
+    font-size: 16px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.063;
+    position: absolute;
+    left: 398.999px;
+    top: 1076.996px;
+}
+
+.food__list__3__desc {
+    font-size: 14px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(92, 99, 105);
+    line-height: 1.857;
+    position: absolute;
+    left: 398.516px;
+    top: 1097.797px;
+}
+
+.food__list__3__price {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 0.846;
+    position: absolute;
+    left: 800.187px;
+    top: 1077.502px;
+}
+
+.food__list__4__name {
+    font-size: 16px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.063;
+    position: absolute;
+    left: 398.999px;
+    top: 1160.996px;
+}
+
+.food__list__4__desc {
+    font-size: 14px;
+    font-family: 'Sintony', sans-serif;
+    color: rgb(92, 99, 105);
+    line-height: 1.857;
+    position: absolute;
+    left: 398.516px;
+    top: 1181.797px;
+}
+
+.food__list__4__price {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 0.846;
+    position: absolute;
+    left: 800.187px;
+    top: 1161.502px;
+}
+
+.list__scrol {
+    background-color: rgb(254, 76, 141);
+    position: absolute;
+    left: 955px;
+    top: 908px;
+    width: 5px;
+    height: 43px;
+}
+
+.list__button {
+    border-radius: 4px;
+    background-color: rgb(254, 161, 0);
+    position: absolute;
+    left: 400px;
+    top: 1248px;
+    width: 199px;
+    height: 51px;
+}
+
+.list__button__text {
+    font-size: 14px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.143;
+    position: absolute;
+    left: 427.687px;
+    top: 1258.999px;
+}
+
+/* today special */
+
+.food__special {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    line-height: 0.629;
+    position: absolute;
+    left: 996.984px;
+    top: 850px;
+}
+
+.image__1 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 1000px;
+    top: 908px;
+    width: 320px;
+    height: 210px;
+}
+
+.image__1__text {
+    font-size: 15px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1120.109px;
+    top: 996.684px;
+}
+
+.white__1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 36px 51px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 1000px;
+  top: 908px;
+  width: 320px;
+  height: 335px;
+  z-index: -1;
+}
+
+.name__1 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(20, 20, 29);
+    line-height: 1;
+    position: absolute;
+    font-weight: bold;
+    left: 1037.078px;
+    top: 1144px;
+}
+
+.price__1 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(254, 161, 0);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 1;
+    position: absolute;
+    left: 1038.297px;
+    top: 1175.5px;
+}
+
+.image__2 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 1250px;
+    top: 928px;
+    width: 320px;
+    height: 172px;
+    z-index: -2;
+}
+
+.image__2__text {
+    font-size: 15px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1372.109px;
+    top: 1012.684px;
+    z-index: -2;
+}
+
+.white__2 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 36px 51px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 1250px;
+  top: 928px;
+  width: 320px;
+  height: 295px;
+  z-index: -3;
+}
+
+.name__2 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(105, 105, 111);
+    line-height: 1;
+    position: absolute;
+    font-weight: bold;
+    left: 1297.828px;
+    top: 1133.5px;
+    z-index: -2;
+}
+
+.price__2 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(254, 161, 0);
+    text-transform: uppercase;
+    vertical-align: super;
+    line-height: 1;
+    position: absolute;
+    left: 1298.297px;
+    top: 1164.5px;
+    z-index: -2;
+}
+
+/* reserve */
+
+.reserve__back {
+    background-color: rgb(86, 95, 97);
+    position: absolute;
+    left: 0px;
+    top: 1383px;
+    width: 1970px;
+    height: 518px;
+    z-index: -1;
+}
+
+
+.reserve__header {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.629;
+    position: absolute;
+    left: 837.531px;
+    top: 1490.087px;
+}
+
+.reserve__image__text {
+    font-size: 22px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.364;
+    text-align: center;
+    position: absolute;
+    left: 1227.156px;
+    top: 1460.341px;
+}
+
+
+.reserve__image__1__text {
+    font-size: 15px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 382.984px;
+    top: 1481.684px;
+}
+
+.reserve__image__1 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 276px;
+    top: 1336px;
+    width: 293px;
+    height: 293px;
+}
+
+.reserve__image__2__text {
+    font-size: 15px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1482.984px;
+    top: 1808.684px;
+}
+
+.reserve__image__2 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 1401px;
+    top: 1693px;
+    width: 241px;
+    height: 234px;
+}
+
+.reserve__button {
+    border-radius: 4px;
+    background-color: rgb(254, 161, 0);
+    position: absolute;
+    left: 600px;
+    top: 1751px;
+    width: 199px;
+    height: 51px;
+}
+
+.reserve__button__text {
+    font-size: 14px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.143;
+    position: absolute;
+    left: 629.828px;
+    top: 1761.999px;
+}
+
+.reserve__line {
+    border-width: 1px;
+    border-color: rgb(88, 84, 93);
+    border-style: solid;
+    position: absolute;
+    left: 984px;
+    top: 1758px;
+    width: 0;
+    height: 40px;
+}
+
+.reserve__text__1 {
+    font-size: 13px;
+    font-family: 'Sintony', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.308;
+    position: absolute;
+    left: 843px;
+    top: 1766.425px;
+}
+
+.reserve__text__2 {
+    font-size: 13px;
+    font-family: 'Sintony', serif;
+    color: #c6547d;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.308;
+    position: absolute;
+    left: 843px;
+    top: 1781.425px;
+}
+
+
+.reserve__number {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.917;
+    position: absolute;
+    left: 1001.156px;
+    top: 1765.996px;
+}
+
+.area__name {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 600px;
+    top: 1541px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__name__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 658.516px;
+    top: 1553.501px;
+    z-index: 1;
+}
+
+.area__time {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 600px;
+    top: 1602px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__time__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 658.906px;
+    top: 1614.501px;
+    z-index: 1;
+}
+
+.area__guests {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 600px;
+    top: 1663px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__guests__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 657.969px;
+    top: 1675.501px;
+    z-index: 1;
+}
+
+.area__email {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1000px;
+    top: 1541px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__email__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 1058.516px;
+    top: 1553.501px;
+    z-index: 1;
+}
+
+.area__date {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1000px;
+    top: 1602px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__date__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 1059.516px;
+    top: 1614.501px;
+    z-index: 1;
+}
+
+.area__phone {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1000px;
+    top: 1663px;
+    width: 370px;
+    height: 51px;
+}
+
+.area__phone__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 1058.516px;
+    top: 1675.501px;
+    z-index: 1;
+}
+
+
+/* happy */ 
+
+.happy__header {
+    font-size: 35px;
+    font-family: "Playfair Display";
+    color: rgb(20, 20, 29);
+    line-height: 0.629;
+    position: absolute;
+    left: 871.531px;
+    top: 2025.087px;
+}
+
+.happy__image {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 401px;
+    top: 2064px;
+    width: 269px;
+    height: 295px;
+}
+
+.happy__image__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 495.984px;
+    top: 2210.684px;
+}
+
+.happy__title {
+    font-size: 22px;
+    font-family: "Playfair Display";
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    position: absolute;
+    left: 740.382px;
+    top: 2108.376px;
+}
+
+.happy__quote__first {
+    font-size: 60px;
+    font-family: "Playfair Display";
+    color: rgb(20, 20, 29);
+    line-height: 0.367;
+    position: absolute;
+    left: 698.016px;
+    top: 2077.99px;
+}
+
+.happy__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(54, 61, 67);
+    text-align: left;
+    position: absolute;
+    left: 739.367px;
+    top: 2155.533px;
+}
+
+.happy__quote__second {
+    font-size: 60px;
+    font-family: "Playfair Display";
+    color: rgb(20, 20, 29);
+    line-height: 0.367;
+    position: absolute;
+    left: 1498.516px;
+    top: 2210.49px;
+}
+
+.happy__border {
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    position: absolute;
+    left: 740px;
+    top: 2256px;
+    width: 215px;
+    height: 0;
+}
+
+.happy__name {
+    font-size: 16px;
+    font-family: "Sintony";
+    color: rgb(20, 20, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.063;
+    position: absolute;
+    left: 739.446px;
+    top: 2282.996px;
+}
+
+.checked {
+    color: orange;
+}
+
+.stars {
+    left: 739.446px;
+    top: 2307.002px;
+    position: absolute;
+}
+
+.carousel__1 {
+    border-radius: 14px;
+    border: solid 2px #fea100;
+    position: absolute;
+    left: 1584px;
+    top: 2170px;
+    width: 14px;
+    height: 14px;
+}
+
+.dot__1 {
+    border-radius: 4px;
+    border: solid 2px #fea100;
+    position: absolute;
+    left: 1589px;
+    top: 2175px;
+    width: 4px;
+    height: 4px;
+}
+
+.carousel__2 {
+    border-radius: 14px;
+    border: solid 2px black;
+    position: absolute;
+    left: 1584px;
+    top: 2190px;
+    width: 14px;
+    height: 14px;
+}
+
+.dot__2 {
+    border-radius: 4px;
+    border: solid 2px black;
+    position: absolute;
+    left: 1589px;
+    top: 2195px;
+    width: 4px;
+    height: 4px;
+}
+
+.carousel__3 {
+    border-radius: 14px;
+    border: solid 2px black;
+    position: absolute;
+    left: 1584px;
+    top: 2210px;
+    width: 14px;
+    height: 14px;
+}
+
+.dot__3 {
+    border-radius: 4px;
+    border: solid 2px black;
+    position: absolute;
+    left: 1589px;
+    top: 2215px;
+    width: 4px;
+    height: 4px;
+}
+
+
+/* gallery */
+
+.gallery__back {
+    background-color: #edf1f3;
+    position: absolute;
+    left: 0px;
+    top: 2460px;
+    width: 1970px;
+    height: 650px;
+    z-index: -1;
+}
+
+.gallery__header {
+    font-size: 35px;
+    font-family: "Playfair Display";
+    color: rgb(20, 20, 29);
+    position: absolute;
+    font-weight: bold;
+    left: 888.141px;
+    top: 2560.087px;
+}
+
+.gallery__image__1 {
+  background-color: rgb(125, 133, 135);
+  position: absolute;
+  left: -101px;
+  top: 2618px;
+  width: 471px;
+  height: 340px;
+}
+
+.gallery__image__1__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 95.109px;
+    top: 2786.684px;
+}
+
+.gallery__image__2 {
+    background-color: rgb(110, 118, 120);
+    position: absolute;
+    left: 370px;
+    top: 2618px;
+    width: 471px;
+    height: 340px;
+}
+
+.gallery__image__2__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 566.703px;
+    top: 2787.684px;
+}
+
+.gallery__image__3 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 841px;
+    top: 2618px;
+    width: 471px;
+    height: 340px;
+}
+
+.gallery__image__3__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1037.703px;
+    top: 2787.684px;
+}
+
+.gallery__image__4 {
+    background-color: rgb(110, 118, 120);
+    position: absolute;
+    left: 1312px;
+    top: 2618px;
+    width: 471px;
+    height: 340px;
+}
+
+.gallery__image__4__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1508.703px;
+    top: 2786.684px;
+}
+
+.gallery__image__5 {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 1783px;
+    top: 2618px;
+    width: 187px;
+    height: 340px;
+}
+
+.gallery__image__5__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1840.062px;
+    top: 2786.684px;    
+}
+
+.gallery__carousel__1 {
+    border-radius: 14px;
+    border: solid 2px #fea100;
+    position: absolute;
+    left: 999px;
+    top: 2994px;
+    width: 14px;
+    height: 14px;
+}
+
+.gallery__dot__1 {
+    border-radius: 4px;
+    border: solid 2px #fea100;
+    position: absolute;
+    left: 1004px;
+    top: 2999px;
+    width: 4px;
+    height: 4px;
+}
+
+.gallery__carousel__2 {
+    border-radius: 14px;
+    border: solid 2px black;
+    position: absolute;
+    left: 979px;
+    top: 2994px;
+    width: 14px;
+    height: 14px;
+}
+
+.gallery__dot__2 {
+    border-radius: 4px;
+    border: solid 2px black;
+    position: absolute;
+    left: 984px;
+    top: 2999px;
+    width: 4px;
+    height: 4px;
+}
+
+.gallery__carousel__3{
+    border-radius: 14px;
+    border: solid 2px black;
+    position: absolute;
+    left: 959px;
+    top: 2994px;
+    width: 14px;
+    height: 14px;
+}
+
+.gallery__dot__3 {
+    border-radius: 4px;
+    border: solid 2px black;
+    position: absolute;
+    left: 964px;
+    top: 2999px;
+    width: 4px;
+    height: 4px;
+}
+
+
+/* hours */
+
+.hours__header {
+  font-size: 35px;
+  font-family: "Playfair Display";
+  color: rgb(20, 20, 29);
+  line-height: 0.629;
+  position: absolute;
+  left: 398.141px;
+  top: 3230.603px;
+}
+
+.hours__image {
+    background-color: rgb(125, 133, 135);
+    position: absolute;
+    left: 1324px;
+    top: 3169px;
+    width: 210px;
+    height: 210px;
+}
+
+.hours__image__text {
+    font-size: 15px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    position: absolute;
+    left: 1389.984px;
+    top: 3272.684px;
+}
+
+.hours__time__1 {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: orange;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 799.007px;
+    top: 3250.764px;
+}
+
+.hours__title__1 {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 799.007px;
+    top: 3220.764px;  
+    font-style: italic;  
+}
+
+.hours__time__2 {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: orange;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 1034.999px;
+    top: 3250.764px;
+}
+ 
+.hours__title__2  {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 1034.999px;
+    top: 3220.764px;
+    font-style: italic;
+}
+
+
+/* footer */
+
+
+
+.footer__back {
+    background-color: rgb(55, 56, 68);
+    position: absolute;
+    left: 0px;
+    top: 3333px;
+    width: 1970px;
+    height: 510px;
+    z-index: -1;
+}
+
+
+.footer__header {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(255, 255, 255);
+  line-height: 0.917;
+  position: absolute;
+  left: 698.984px;
+  top: 3431.996px;
+}
+
+.footer__navigator__title {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(255, 255, 255);
+  line-height: 0.917;
+  position: absolute;
+  left: 397.984px;
+  top: 3454.5px;
+}
+
+.footer__navigator__home {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3510.108px;
+}
+
+.footer__navigator__about {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3530.108px;
+}
+
+.footer__navigator__menu {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3550.108px;
+}
+
+.footer__navigator__reservation {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3570.108px;
+}
+
+.footer__navigator__recipe {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3590.108px;
+}
+
+.footer__navigator__blog {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3610.108px;
+}
+
+.footer__navigator__contact {
+  font-size: 14px;
+  font-family: "Sintony";
+  color: rgb(173, 178, 183);
+  line-height: 2.143;
+  position: absolute;
+  left: 398.766px;
+  top: 3630.108px;
+}
+
+.footer__email__title {
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: "Sintony";
+    color: rgb(173, 178, 183);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    top: 3480px;
+    width: 382px;
+    height: 15px;
+}
+
+.footer__email__text {
+    font-size: 13px;
+    font-family: "Sintony";
+    color: rgb(230, 233, 235);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 748.516px;
+    top: 3534.001px;
+}
+
+.footer__email__field {
+    border-width: 2px;
+    border-color: rgb(82, 83, 94);
+    border-style: solid;
+    border-radius: 4px;
+    position: absolute;
+    left: 700px;
+    top: 3521px;
+    width: 307px;
+    height: 47px;
+}
+
+.footer__button {
+    border-radius: 4px;
+    background-color: rgb(254, 161, 0);
+    position: absolute;
+    left: 1020px;
+    top: 3521px;
+    width: 149px;
+    height: 51px;
+}
+
+.footer__button__text {
+    font-size: 14px;
+    font-family: "Sintony";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.143;
+    position: absolute;
+    left: 1055.391px;
+    top: 3531.999px;
+}
+
+.footer__social {
+    background: url("../images/social.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: 700px;
+    top: 3609px;
+    width: 170px;
+    height: 52px;
+}
+
+.fotter__line__1 {
+    border-width: 1px;
+    border-color: rgb(82, 83, 94);
+    border-style: solid;
+    position: absolute;
+    left: 399px;
+    top: 3767px;
+    width: 363px;
+    height: 0;
+}
+
+.footer__line__2 {
+    border-width: 1px;
+    border-color: rgb(82, 83, 94);
+    border-style: solid;
+    position: absolute;
+    left: 1200px;
+    top: 3767px;
+    width: 363px;
+    height: 0;
+}
+
+.fotter__end {
+    font-size: 13px;
+    font-family: "Sintony";
+    color: rgb(173, 178, 183);
+    text-transform: uppercase;
+    line-height: 2;
+    position: absolute;
+    left: 815.953px;
+    top: 3750px;
+}
+
